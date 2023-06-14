@@ -12,7 +12,7 @@ import { useHover } from "@uidotdev/usehooks";
 
 
 
-export default function Layout({children, title, description, page}) {
+export default function Layout({children, title, description}) {
     
     // Creamos las variables para el useHover
     // ref para hacer referencia a la etiqueta a la cual se le aplicara el efecto
